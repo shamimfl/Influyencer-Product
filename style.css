@@ -1,0 +1,263 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: rgb(228, 232, 236);
+    margin: 0px;
+}
+.manu{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+.head{
+    margin-left: 100px;
+}
+.manus{
+    margin-left: 500px;
+}
+.heading{
+    font-size: 40px;
+}
+
+/* frist part css start */
+.frist-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.photo{
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(120, 189, 211);
+}
+.head-pragraph{
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+.batton{
+    background-color: rgb(59, 117, 211);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.pragraph{
+    text-align: justify;}
+
+/* frist part end */
+
+/* collection start */
+
+.Collection{ 
+    text-align: center;
+}
+.Collection:hover{ 
+    text-align: center;
+    font-style: italic;
+    text-shadow: 10px 5px 5px black;
+}
+.product{
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+.star{
+    color: rgb(233, 193, 14);
+}
+.price{
+    color: black;
+}
+.best-photo{
+    height: 450px;
+    width: 300px;
+    border: 10px solid rgb(252, 255, 254);
+    border-radius: 5px;
+    background-color: white;
+}
+.best-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-gap: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.see-more{
+    text-decoration: none;
+    color: rgb(59, 117, 211);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 1100px;
+    font-weight: bolder;
+}
+/* <!-- apps fatere start --> */
+
+.apps-feature{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 150px;
+}
+.feature-photo{
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.feature-pragraph-all{
+    margin: 100px 100px 0px 100px;
+}
+.feature-pragraph{
+    font-size: 20px;
+    text-align: justify;
+}
+ 
+/* footer style start */
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px; }
+/* footer style end */
+
+
+/* /* * midea quary start *  */
+
+
+@media only screen and (max-width: 688px) {
+    
+    
+.manu{
+display: none;}
+    .frist-part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+}
+.head{
+   white-space: nowrap;
+}
+.photo{
+    height: 300px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(120, 189, 211);
+}
+.head-pragraph{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.best-collection{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: start;
+    grid-gap: 30px;
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-top: 30px;
+}
+
+.feature-photo{
+    height: 200px;
+    width: 300px;
+    margin-left: 0px;
+    border-radius: 30px;
+}
+
+.feature-pragraph-all{
+    width: 100%;
+    margin: 100px 0px 0px 0px;}
+    .feature-photo{
+        
+    margin-left: 0px;
+    }
+
+    footer{
+        background-color: black;
+        color: blanchedalmond;
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .apps-feature{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 150px;
+    }
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .see-more{
+        margin-left: 200px;
+    }
+    .product{
+        height: 250px;
+        width: 370px;
+        border-radius: 5px;
+    }
+    .best-photo{
+        height: 450px;
+        width: 370px;
+        border: 10px solid rgb(252, 255, 254);
+        border-radius: 5px;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .manu{
+        display: none;
+    }
+     .best-collection{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+     }
+     footer{
+         width: 100%;
+     }
+     .feature-pragraph{
+         width: 300px;
+     }
+     .feature-photo{
+        height: 200px;
+        width: 300px;
+        margin-left: 0px;
+        border-radius: 30px;
+    }
+    .see-more{
+        margin-left: 500px;
+    }
+    .frist-part{
+        margin-left: 0px;
+    }
+    
+.head-pragraph{
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+}
+.photo{
+    width: 300px;
+}
+.head{
+    white-space: nowrap;
+    justify-content: center;
+}
+}
+
