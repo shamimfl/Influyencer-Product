@@ -93,10 +93,10 @@ body{
 .see-more{
     text-decoration: none;
     color: rgb(59, 117, 211);
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-left: 1100px;
     font-weight: bolder;
+    display: flex;
+    justify-content: end;
+    margin: 20px;
 }
 /* <!-- apps fatere start --> */
 
